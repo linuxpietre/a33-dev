@@ -3,7 +3,7 @@
 echo " Instalando dependencias"
 sleep 3
 apt-get update
-apt-get install -y build-essential bin86 kernel-package libqt4-dev wget libncurses5 libncurses5-dev qt4-dev-tools libqt4-dev zlib1g-dev gcc-arm-linux-gnueabihf git debootstrap u-boot-tools device-tree-compiler libusb-1.0-0-dev android-tools-adb android-tools-fastboot qemu-user-static
+apt-get install -y build-essential bin86 kernel-package wget libncurses5 libncurses5-dev bison zlib1g-dev gcc-arm-linux-gnueabihf git debootstrap u-boot-tools device-tree-compiler libusb-1.0-0-dev android-tools-adb android-tools-fastboot qemu-user-static
 
 
 echo " Instalando sunxi-tools"
